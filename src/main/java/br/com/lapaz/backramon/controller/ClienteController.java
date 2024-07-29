@@ -1,11 +1,11 @@
-package controller;
+package br.com.lapaz.backramon.controller;
 
-import model.Cliente;
+import br.com.lapaz.backramon.model.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import repository.ClienteRepository;
+import br.com.lapaz.backramon.repository.ClienteRepository;
 
 @RestController
 @RequestMapping("/cliente")

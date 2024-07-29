@@ -1,4 +1,4 @@
-package model;
+package br.com.lapaz.backramon.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

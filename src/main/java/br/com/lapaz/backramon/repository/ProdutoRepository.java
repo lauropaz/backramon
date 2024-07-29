@@ -1,6 +1,6 @@
-package repository;
+package br.com.lapaz.backramon.repository;
 
-import model.Produto;
+import br.com.lapaz.backramon.model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
